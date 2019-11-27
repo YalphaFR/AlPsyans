@@ -13,7 +13,7 @@ let module_staff = require("./staff");
 const prefix = configBot.prefix;
 const version = configBot.version;
 
- let bot = new Eris(process.env.TOKEN);
+ const bot = new Eris(process.env.TOKEN);
  const Owner = "Yalpha_ KZ | 🇫🇷 ™#7270";
  const talkedRecently = new Set();
  
