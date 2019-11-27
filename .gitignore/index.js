@@ -1,4 +1,4 @@
-const Discord = require("discord.js");
+//const Discord = require("discord.js");
 const Eris = require("eris");
 const snekfetch = require("snekfetch");
 const moment = require("moment");
