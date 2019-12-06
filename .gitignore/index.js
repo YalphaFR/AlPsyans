@@ -1,15 +1,14 @@
-//const Discord = require("discord.js");
+const Discord = require("discord.js");
 const Eris = require("eris");
 const snekfetch = require("snekfetch");
 const moment = require("moment");
 moment.locale("Fr");
-
 const eventReaction = require("./eventReaction");
 const sysHelpAP = require("./sysHelpAP");
 const fun = require("./fun");
 const information = require("./information");
-let configBot = require("./package.json");
-let module_staff = require("./staff");
+const configBot = require("./package.json");
+const module_staff = require("./staff");
 const prefix = configBot.prefix;
 const version = configBot.version;
 
