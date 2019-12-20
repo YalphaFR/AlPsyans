@@ -12,7 +12,7 @@ function bingo () {
     return nombre;
 }
 
-module.exports.run = async (bot, prefix, colorRoleBot, msg, args, commande, permAdmin) => {
+module.exports.run = async (bot, colorRoleBot, msg, args, commande, permAdmin) => {
     if (commande === `${prefix}suggest`) {
         if (args.length === 0) {
           return msg.channel.createMessage({embed: {
