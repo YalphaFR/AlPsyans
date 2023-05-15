@@ -12,7 +12,7 @@
   "dependencies": {
     "discord.js": "^11.5.1",
     "eris": "^0.10.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "snekfetch": "^4.0.4"
   }
 }
